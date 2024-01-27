@@ -32,7 +32,7 @@ class ExpressionParserTest {
 
     @Test
     fun `Expression with parentheses is properly parsed`() {
-        parser = ExpressionParser("4-(4x5)")
+        parser = ExpressionParser("4+(4x5)")
 
         val actual = parser.parse()
 
